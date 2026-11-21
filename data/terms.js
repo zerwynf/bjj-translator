@@ -240,8 +240,8 @@ const TERMS = [
       "d-arce-choke",
       "headlock"
     ],
-    "examplePt": "Aplicar a guilhotina",
-    "exampleEn": "Apply the guillotine"
+    "examplePt": "Encaixar a anaconda",
+    "exampleEn": "Lock in the anaconda"
   },
   {
     "id": "ankle-lock",
@@ -269,8 +269,8 @@ const TERMS = [
       "mount",
       "d-arce-choke"
     ],
-    "examplePt": "Fazer o estrangulamento cruzado",
-    "exampleEn": "Do the cross collar choke"
+    "examplePt": "Fechar o triângulo de braço",
+    "exampleEn": "Close the arm triangle"
   },
   {
     "id": "armbar",
@@ -298,8 +298,8 @@ const TERMS = [
       "knee-on-belly",
       "collar"
     ],
-    "examplePt": "Fazer o ezequiel",
-    "exampleEn": "Do the Ezekiel"
+    "examplePt": "Fazer o estrangulamento taco de beisebol",
+    "exampleEn": "Do the baseball bat choke"
   },
   {
     "id": "bicep-slicer",
@@ -312,8 +312,8 @@ const TERMS = [
       "armbar",
       "calf-slicer"
     ],
-    "examplePt": "",
-    "exampleEn": ""
+    "examplePt": "Aplicar a chave de bíceps",
+    "exampleEn": "Apply the bicep slicer"
   },
   {
     "id": "bow-and-arrow-choke",
@@ -340,8 +340,8 @@ const TERMS = [
       "knee-bar",
       "leg-lock"
     ],
-    "examplePt": "Aplicar a chave de braço",
-    "exampleEn": "Apply the armbar"
+    "examplePt": "Aplicar a chave de panturrilha",
+    "exampleEn": "Apply the calf slicer"
   },
   {
     "id": "cross-collar-choke",
@@ -369,8 +369,8 @@ const TERMS = [
       "anaconda-choke",
       "arm-triangle"
     ],
-    "examplePt": "Aplicar a americana",
-    "exampleEn": "Apply the Americana"
+    "examplePt": "Encaixar o D'Arce",
+    "exampleEn": "Lock in the D'Arce"
   },
   {
     "id": "ezekiel-choke",
@@ -396,8 +396,8 @@ const TERMS = [
     "related": [
       "guard"
     ],
-    "examplePt": "Aplicar a guilhotina",
-    "exampleEn": "Apply the guillotine"
+    "examplePt": "Encaixar a gogoplata",
+    "exampleEn": "Lock in the gogoplata"
   },
   {
     "id": "guillotine",
@@ -424,8 +424,8 @@ const TERMS = [
       "knee-bar",
       "leg-lock"
     ],
-    "examplePt": "Aplicar a chave de joelho",
-    "exampleEn": "Apply the knee bar"
+    "examplePt": "Aplicar a chave de calcanhar",
+    "exampleEn": "Apply the heel hook"
   },
   {
     "id": "kimura",
@@ -467,8 +467,8 @@ const TERMS = [
       "lapel",
       "guard"
     ],
-    "examplePt": "Aplicar a chave de tornozelo",
-    "exampleEn": "Apply the ankle lock"
+    "examplePt": "Fazer o estrangulamento de lapela",
+    "exampleEn": "Do the loop choke"
   },
   {
     "id": "omoplata",
@@ -510,8 +510,8 @@ const TERMS = [
       "knee-bar",
       "heel-hook"
     ],
-    "examplePt": "Fazer o berimbolo",
-    "exampleEn": "Do the berimbolo"
+    "examplePt": "Aplicar a chave de pé",
+    "exampleEn": "Apply the toe hold"
   },
   {
     "id": "triangle-choke",
@@ -538,8 +538,8 @@ const TERMS = [
       "guard",
       "mount"
     ],
-    "examplePt": "Fazer a pendulum",
-    "exampleEn": "Do the pendulum sweep"
+    "examplePt": "Aplicar a chave de punho",
+    "exampleEn": "Apply the wrist lock"
   },
   {
     "id": "berimbolo",
@@ -609,8 +609,8 @@ const TERMS = [
       "guard",
       "side-control"
     ],
-    "examplePt": "Fazer o berimbolo",
-    "exampleEn": "Do the berimbolo"
+    "examplePt": "Fazer a raspagem lenhador",
+    "exampleEn": "Do the lumberjack sweep"
   },
   {
     "id": "overhead-sweep",
@@ -623,8 +623,8 @@ const TERMS = [
       "butterfly-guard",
       "guard"
     ],
-    "examplePt": "Fazer a queda dupla",
-    "exampleEn": "Do the double leg"
+    "examplePt": "Fazer a raspagem por cima",
+    "exampleEn": "Do the overhead sweep"
   },
   {
     "id": "scissor-sweep",
@@ -691,8 +691,8 @@ const TERMS = [
     "related": [
       "takedown-score"
     ],
-    "examplePt": "Fazer a queda dupla",
-    "exampleEn": "Do the double leg"
+    "examplePt": "Fazer a queda com abraço",
+    "exampleEn": "Do the body lock takedown"
   },
   {
     "id": "double-leg",
@@ -788,8 +788,8 @@ const TERMS = [
       "professor",
       "training"
     ],
-    "examplePt": "",
-    "exampleEn": ""
+    "examplePt": "Eu treino nessa academia",
+    "exampleEn": "I train at this academy"
   },
   {
     "id": "back-take",
@@ -900,8 +900,8 @@ const TERMS = [
       "guillotine",
       "triangle-choke"
     ],
-    "examplePt": "Fazer a fuga",
-    "exampleEn": "Do the escape"
+    "examplePt": "Cuidado com o estrangulamento!",
+    "exampleEn": "Watch out for the choke!"
   },
   {
     "id": "collar",
@@ -944,8 +944,8 @@ const TERMS = [
       "takedown-score",
       "self-defense"
     ],
-    "examplePt": "Fazer a inversão",
-    "exampleEn": "Do the inversion"
+    "examplePt": "Controla a distância!",
+    "exampleEn": "Control the distance!"
   },
   {
     "id": "drilling",
@@ -986,8 +986,8 @@ const TERMS = [
       "berimbolo",
       "de-la-riva-guard"
     ],
-    "examplePt": "Fazer a inversão",
-    "exampleEn": "Do the inversion"
+    "examplePt": "Vamos fluir",
+    "exampleEn": "Let's flow"
   },
   {
     "id": "forward-roll",
@@ -1171,8 +1171,8 @@ const TERMS = [
       "ankle-lock",
       "toe-hold"
     ],
-    "examplePt": "Trocar de parceiro",
-    "exampleEn": "Switch partners"
+    "examplePt": "Cuidado com a chave de perna!",
+    "exampleEn": "Watch out for the leg lock!"
   },
   {
     "id": "lift",
@@ -1226,8 +1226,8 @@ const TERMS = [
       "stripe",
       "white-belt"
     ],
-    "examplePt": "Bom treino!",
-    "exampleEn": "Good training!"
+    "examplePt": "Sábado tem treino livre",
+    "exampleEn": "There's open mat on Saturday"
   },
   {
     "id": "overhook",
@@ -1240,8 +1240,8 @@ const TERMS = [
       "underhook",
       "body-lock-takedown"
     ],
-    "examplePt": "Trocar de parceiro",
-    "exampleEn": "Switch partners"
+    "examplePt": "Pega o gancho por cima",
+    "exampleEn": "Get the overhook"
   },
   {
     "id": "pants",
@@ -1271,8 +1271,8 @@ const TERMS = [
       "side-control",
       "back-control"
     ],
-    "examplePt": "Pegar na manga",
-    "exampleEn": "Grab the sleeve"
+    "examplePt": "Posição antes da finalização",
+    "exampleEn": "Position before submission"
   },
   {
     "id": "posture",
@@ -1313,8 +1313,8 @@ const TERMS = [
       "black-belt",
       "professor"
     ],
-    "examplePt": "Fazer a base técnica",
-    "exampleEn": "Do the technical stand-up"
+    "examplePt": "Ganhar a disputa",
+    "exampleEn": "Win the scramble"
   },
   {
     "id": "self-defense",
@@ -1329,8 +1329,8 @@ const TERMS = [
       "takedown-score",
       "distance-management"
     ],
-    "examplePt": "",
-    "exampleEn": ""
+    "examplePt": "Aula de defesa pessoal",
+    "exampleEn": "Self-defense class"
   },
   {
     "id": "shrimp-hip-escape",
@@ -1412,8 +1412,8 @@ const TERMS = [
       "stripe",
       "white-belt"
     ],
-    "examplePt": "Mais rápido!",
-    "exampleEn": "Faster!"
+    "examplePt": "A aula começa às sete",
+    "exampleEn": "Class starts at seven"
   },
   {
     "id": "training",
@@ -1454,8 +1454,8 @@ const TERMS = [
       "black-belt",
       "red-belt"
     ],
-    "examplePt": "Mais rápido!",
-    "exampleEn": "Faster!"
+    "examplePt": "Trabalhar a transição",
+    "exampleEn": "Work the transition"
   },
   {
     "id": "underhook",
@@ -1468,8 +1468,8 @@ const TERMS = [
       "overhook",
       "body-lock-takedown"
     ],
-    "examplePt": "Salta!",
-    "exampleEn": "Hop!"
+    "examplePt": "Pega o gancho por baixo",
+    "exampleEn": "Get the underhook"
   },
   {
     "id": "warm-up",
@@ -1482,8 +1482,8 @@ const TERMS = [
       "white-belt",
       "stripe"
     ],
-    "examplePt": "Ele ganhou um grau",
-    "exampleEn": "He earned a stripe"
+    "examplePt": "Vamos fazer o aquecimento",
+    "exampleEn": "Let's do the warm-up"
   },
   {
     "id": "again-one-more-time",
@@ -1496,8 +1496,8 @@ const TERMS = [
       "black-belt",
       "professor"
     ],
-    "examplePt": "Defesa de chute",
-    "exampleEn": "Kick defense"
+    "examplePt": "De novo!",
+    "exampleEn": "Again!"
   },
   {
     "id": "back-behind",
@@ -1538,8 +1538,8 @@ const TERMS = [
       "points",
       "penalty"
     ],
-    "examplePt": "Salta!",
-    "exampleEn": "Hop!"
+    "examplePt": "Cumprimentar o professor",
+    "exampleEn": "Bow to the professor"
   },
   {
     "id": "close",
@@ -1563,8 +1563,8 @@ const TERMS = [
       "points",
       "advantage"
     ],
-    "examplePt": "Pula!",
-    "exampleEn": "Jump!"
+    "examplePt": "Entendeu? Entendi!",
+    "exampleEn": "Do you understand? I understand!"
   },
   {
     "id": "elevate",
@@ -1647,8 +1647,8 @@ const TERMS = [
       "points",
       "guard"
     ],
-    "examplePt": "Empurra!",
-    "exampleEn": "Push!"
+    "examplePt": "Boa, continua assim!",
+    "exampleEn": "Good job, keep it up!"
   },
   {
     "id": "grab",
@@ -1748,8 +1748,8 @@ const TERMS = [
       "armbar",
       "kimura"
     ],
-    "examplePt": "Mais devagar!",
-    "exampleEn": "Slower!"
+    "examplePt": "Vamos, não para!",
+    "exampleEn": "Let's go, don't stop!"
   },
   {
     "id": "let-s-roll",
@@ -1762,8 +1762,8 @@ const TERMS = [
       "guard",
       "leg-lock"
     ],
-    "examplePt": "Fazer pressão",
-    "exampleEn": "Apply pressure"
+    "examplePt": "Vamos rolar?",
+    "exampleEn": "Shall we roll?"
   },
   {
     "id": "line-up",
@@ -1776,8 +1776,8 @@ const TERMS = [
       "choke",
       "guillotine"
     ],
-    "examplePt": "Ter boa base",
-    "exampleEn": "Have good base"
+    "examplePt": "Faz fila por faixa",
+    "exampleEn": "Line up by belt"
   },
   {
     "id": "move",
@@ -1827,8 +1827,8 @@ const TERMS = [
       "bridge",
       "sweep-score"
     ],
-    "examplePt": "Vamos rolar!",
-    "exampleEn": "Let's roll!"
+    "examplePt": "Oss, professor!",
+    "exampleEn": "Oss, professor!"
   },
   {
     "id": "pay-attention",
@@ -1841,8 +1841,8 @@ const TERMS = [
       "knee-bar",
       "shin"
     ],
-    "examplePt": "Vamos fazer repetição",
-    "exampleEn": "Let's drill"
+    "examplePt": "Presta atenção no detalhe",
+    "exampleEn": "Pay attention to the detail"
   },
   {
     "id": "pull",
@@ -1990,8 +1990,8 @@ const TERMS = [
       "americana",
       "omoplata"
     ],
-    "examplePt": "Fazer pressão",
-    "exampleEn": "Apply pressure"
+    "examplePt": "Prontos? Começa!",
+    "exampleEn": "Ready? Go!"
   },
   {
     "id": "stop-time",
@@ -2004,8 +2004,8 @@ const TERMS = [
       "back-control",
       "posture"
     ],
-    "examplePt": "Ter boa base",
-    "exampleEn": "Have good base"
+    "examplePt": "Parou! Tempo!",
+    "exampleEn": "Stop! Time!"
   },
   {
     "id": "straighten",
@@ -2033,8 +2033,8 @@ const TERMS = [
       "posture",
       "headlock"
     ],
-    "examplePt": "Colocar os ganchos",
-    "exampleEn": "Put in the hooks"
+    "examplePt": "Troca de parceiro!",
+    "exampleEn": "Switch partners!"
   },
   {
     "id": "tap",
@@ -2047,8 +2047,8 @@ const TERMS = [
       "side-control",
       "pressure"
     ],
-    "examplePt": "Boa luta!",
-    "exampleEn": "Good match!"
+    "examplePt": "Bate antes de se machucar",
+    "exampleEn": "Tap before you get hurt"
   },
   {
     "id": "tie-your-belt",
@@ -2075,8 +2075,8 @@ const TERMS = [
       "grip",
       "collar"
     ],
-    "examplePt": "Bom treino!",
-    "exampleEn": "Good training!"
+    "examplePt": "Muito bem, perfeito!",
+    "exampleEn": "Well done, perfect!"
   },
   {
     "id": "black-belt",
@@ -2090,8 +2090,8 @@ const TERMS = [
       "white-belt",
       "coral-belt"
     ],
-    "examplePt": "Fazer a pegada",
-    "exampleEn": "Get the grip"
+    "examplePt": "Ele é faixa preta",
+    "exampleEn": "He's a black belt"
   },
   {
     "id": "blue-belt",
@@ -2104,8 +2104,8 @@ const TERMS = [
       "stripe",
       "white-belt"
     ],
-    "examplePt": "Passar a guarda",
-    "exampleEn": "Pass the guard"
+    "examplePt": "Ela pegou a faixa azul",
+    "exampleEn": "She got her blue belt"
   },
   {
     "id": "brown-belt",
@@ -2118,8 +2118,8 @@ const TERMS = [
       "stripe",
       "white-belt"
     ],
-    "examplePt": "Recompor a guarda",
-    "exampleEn": "Recover the guard"
+    "examplePt": "Faltam dois graus para a faixa marrom",
+    "exampleEn": "Two stripes to go until brown belt"
   },
   {
     "id": "coral-belt",
@@ -2132,8 +2132,8 @@ const TERMS = [
       "black-belt",
       "red-belt"
     ],
-    "examplePt": "Vamos rolar!",
-    "exampleEn": "Let's roll!"
+    "examplePt": "Mestre faixa coral",
+    "exampleEn": "Coral belt master"
   },
   {
     "id": "professor",
@@ -2145,8 +2145,8 @@ const TERMS = [
     "related": [
       "black-belt"
     ],
-    "examplePt": "Vamos fazer repetição",
-    "exampleEn": "Let's drill"
+    "examplePt": "Obrigado, professor!",
+    "exampleEn": "Thank you, professor!"
   },
   {
     "id": "purple-belt",
@@ -2159,8 +2159,8 @@ const TERMS = [
       "stripe",
       "white-belt"
     ],
-    "examplePt": "Vai para frente",
-    "exampleEn": "Go forward"
+    "examplePt": "Treinar com um faixa roxa",
+    "exampleEn": "Train with a purple belt"
   },
   {
     "id": "red-belt",
@@ -2172,8 +2172,8 @@ const TERMS = [
     "related": [
       "coral-belt"
     ],
-    "examplePt": "Empurra!",
-    "exampleEn": "Push!"
+    "examplePt": "Grande mestre faixa vermelha",
+    "exampleEn": "Red belt grandmaster"
   },
   {
     "id": "stripe",
@@ -2199,8 +2199,8 @@ const TERMS = [
       "professor",
       "academy"
     ],
-    "examplePt": "Bom treino!",
-    "exampleEn": "Good training!"
+    "examplePt": "Ele é meu aluno",
+    "exampleEn": "He's my student"
   },
   {
     "id": "white-belt",
@@ -2212,8 +2212,8 @@ const TERMS = [
     "related": [
       "stripe"
     ],
-    "examplePt": "Fazer a pegada",
-    "exampleEn": "Get the grip"
+    "examplePt": "Todo faixa preta já foi faixa branca",
+    "exampleEn": "Every black belt was once a white belt"
   },
   {
     "id": "advantage",
@@ -2226,8 +2226,8 @@ const TERMS = [
       "points",
       "penalty"
     ],
-    "examplePt": "Fazer pressão",
-    "exampleEn": "Apply pressure"
+    "examplePt": "Ganhou por vantagem",
+    "exampleEn": "Won by advantage"
   },
   {
     "id": "back-control-score",
@@ -2241,8 +2241,8 @@ const TERMS = [
       "back-control",
       "hook"
     ],
-    "examplePt": "Ter boa base",
-    "exampleEn": "Have good base"
+    "examplePt": "Pegou as costas: quatro pontos",
+    "exampleEn": "Took the back: four points"
   },
   {
     "id": "disqualified",
@@ -2255,8 +2255,8 @@ const TERMS = [
       "penalty",
       "referee"
     ],
-    "examplePt": "Manter a postura",
-    "exampleEn": "Keep your posture"
+    "examplePt": "Ele foi desqualificado",
+    "exampleEn": "He was disqualified"
   },
   {
     "id": "guard-pass-score",
@@ -2270,8 +2270,8 @@ const TERMS = [
       "guard",
       "side-control"
     ],
-    "examplePt": "Colocar os ganchos",
-    "exampleEn": "Put in the hooks"
+    "examplePt": "Passou a guarda: três pontos",
+    "exampleEn": "Passed the guard: three points"
   },
   {
     "id": "match-fight",
@@ -2298,8 +2298,8 @@ const TERMS = [
       "points",
       "mount"
     ],
-    "examplePt": "Eleva o quadril!",
-    "exampleEn": "Elevate your hips!"
+    "examplePt": "Montou: quatro pontos",
+    "exampleEn": "Mounted: four points"
   },
   {
     "id": "penalty",
@@ -2312,8 +2312,8 @@ const TERMS = [
       "points",
       "advantage"
     ],
-    "examplePt": "Trocar de parceiro",
-    "exampleEn": "Switch partners"
+    "examplePt": "Tomou punição por falta de combatividade",
+    "exampleEn": "Got a penalty for stalling"
   },
   {
     "id": "points",
@@ -2326,8 +2326,8 @@ const TERMS = [
       "advantage",
       "penalty"
     ],
-    "examplePt": "Passar a guarda",
-    "exampleEn": "Pass the guard"
+    "examplePt": "Ganhou nos pontos",
+    "exampleEn": "Won on points"
   },
   {
     "id": "referee",
@@ -2339,8 +2339,8 @@ const TERMS = [
     "related": [
       "tournament"
     ],
-    "examplePt": "Recompor a guarda",
-    "exampleEn": "Recover the guard"
+    "examplePt": "O árbitro parou a luta",
+    "exampleEn": "The referee stopped the match"
   },
   {
     "id": "rounds",
@@ -2353,8 +2353,8 @@ const TERMS = [
       "sparring-rolling",
       "match-fight"
     ],
-    "examplePt": "Fazer a fuga",
-    "exampleEn": "Do the escape"
+    "examplePt": "Vamos fazer cinco rounds",
+    "exampleEn": "Let's do five rounds"
   },
   {
     "id": "submission",
@@ -2381,8 +2381,8 @@ const TERMS = [
       "points",
       "guard"
     ],
-    "examplePt": "Vai para frente",
-    "exampleEn": "Go forward"
+    "examplePt": "Raspou: dois pontos",
+    "exampleEn": "Swept: two points"
   },
   {
     "id": "takedown-score",
@@ -2394,8 +2394,8 @@ const TERMS = [
     "related": [
       "points"
     ],
-    "examplePt": "Empurra!",
-    "exampleEn": "Push!"
+    "examplePt": "Queda: dois pontos",
+    "exampleEn": "Takedown: two points"
   },
   {
     "id": "tournament",
@@ -2408,8 +2408,8 @@ const TERMS = [
       "match-fight",
       "weight-class"
     ],
-    "examplePt": "",
-    "exampleEn": ""
+    "examplePt": "Vou lutar o campeonato",
+    "exampleEn": "I'm competing in the tournament"
   },
   {
     "id": "weight-class",
@@ -2421,8 +2421,8 @@ const TERMS = [
     "related": [
       "tournament"
     ],
-    "examplePt": "Ele pegou as costas",
-    "exampleEn": "He took the back"
+    "examplePt": "Qual é a sua categoria de peso?",
+    "exampleEn": "What's your weight class?"
   },
   {
     "id": "ankle",
@@ -2435,8 +2435,8 @@ const TERMS = [
       "ankle-lock",
       "hook"
     ],
-    "examplePt": "Eleva o quadril!",
-    "exampleEn": "Elevate your hips!"
+    "examplePt": "Protege o tornozelo",
+    "exampleEn": "Protect your ankle"
   },
   {
     "id": "arm",
@@ -2449,8 +2449,8 @@ const TERMS = [
       "armbar",
       "kimura"
     ],
-    "examplePt": "Trocar de parceiro",
-    "exampleEn": "Switch partners"
+    "examplePt": "Cuidado com o braço!",
+    "exampleEn": "Watch your arm!"
   },
   {
     "id": "back-body",
@@ -2463,8 +2463,8 @@ const TERMS = [
       "back-control",
       "posture"
     ],
-    "examplePt": "Defesa de chute",
-    "exampleEn": "Kick defense"
+    "examplePt": "Costas no chão",
+    "exampleEn": "Back on the mat"
   },
   {
     "id": "bicep",
@@ -2477,8 +2477,8 @@ const TERMS = [
       "arm",
       "elbow"
     ],
-    "examplePt": "Lado esquerdo",
-    "exampleEn": "Left side"
+    "examplePt": "Pega no bíceps",
+    "exampleEn": "Grab the bicep"
   },
   {
     "id": "body",
@@ -2491,8 +2491,8 @@ const TERMS = [
       "choke",
       "guillotine"
     ],
-    "examplePt": "Puxa!",
-    "exampleEn": "Pull!"
+    "examplePt": "Corpo colado",
+    "exampleEn": "Keep your body tight"
   },
   {
     "id": "chest",
@@ -2505,8 +2505,8 @@ const TERMS = [
       "side-control",
       "pressure"
     ],
-    "examplePt": "Mais rápido!",
-    "exampleEn": "Faster!"
+    "examplePt": "Peito com peito",
+    "exampleEn": "Chest to chest"
   },
   {
     "id": "chin",
@@ -2516,8 +2516,8 @@ const TERMS = [
     "pronunciation": "KAY-shoh",
     "description": "The chin is a key reference point for defending chokes — tucking your chin protects the neck.",
     "related": [],
-    "examplePt": "Mais devagar!",
-    "exampleEn": "Slower!"
+    "examplePt": "Queixo para baixo!",
+    "exampleEn": "Chin down!"
   },
   {
     "id": "core",
@@ -2531,8 +2531,8 @@ const TERMS = [
       "bridge",
       "guard"
     ],
-    "examplePt": "Eleva o quadril!",
-    "exampleEn": "Elevate your hips!"
+    "examplePt": "Tronco firme",
+    "exampleEn": "Keep your core tight"
   },
   {
     "id": "ear",
@@ -2545,8 +2545,8 @@ const TERMS = [
       "shin",
       "calf-slicer"
     ],
-    "examplePt": "Defesa de soco",
-    "exampleEn": "Punch defense"
+    "examplePt": "Orelha de couve-flor",
+    "exampleEn": "Cauliflower ear"
   },
   {
     "id": "elbow",
@@ -2559,8 +2559,8 @@ const TERMS = [
       "armbar",
       "frame"
     ],
-    "examplePt": "Defesa de chute",
-    "exampleEn": "Kick defense"
+    "examplePt": "Cotovelo colado!",
+    "exampleEn": "Elbows tight!"
   },
   {
     "id": "eye",
@@ -2573,8 +2573,8 @@ const TERMS = [
       "knee-on-belly",
       "core"
     ],
-    "examplePt": "Puxa!",
-    "exampleEn": "Pull!"
+    "examplePt": "Olho no adversário",
+    "exampleEn": "Eyes on your opponent"
   },
   {
     "id": "finger",
@@ -2587,8 +2587,8 @@ const TERMS = [
       "grip",
       "collar"
     ],
-    "examplePt": "Pula!",
-    "exampleEn": "Jump!"
+    "examplePt": "Cuidado com os dedos",
+    "exampleEn": "Watch your fingers"
   },
   {
     "id": "foot",
@@ -2601,8 +2601,8 @@ const TERMS = [
       "hook",
       "toe-hold"
     ],
-    "examplePt": "Salta!",
-    "exampleEn": "Hop!"
+    "examplePt": "Pé no quadril",
+    "exampleEn": "Foot on the hip"
   },
   {
     "id": "forearm",
@@ -2616,8 +2616,8 @@ const TERMS = [
       "cross-face",
       "chin"
     ],
-    "examplePt": "Lado esquerdo",
-    "exampleEn": "Left side"
+    "examplePt": "Antebraço no pescoço",
+    "exampleEn": "Forearm on the neck"
   },
   {
     "id": "hand",
@@ -2630,8 +2630,8 @@ const TERMS = [
       "grip",
       "wrist-lock"
     ],
-    "examplePt": "Lado direito",
-    "exampleEn": "Right side"
+    "examplePt": "Mão no chão",
+    "exampleEn": "Hand on the mat"
   },
   {
     "id": "head",
@@ -2644,8 +2644,8 @@ const TERMS = [
       "posture",
       "headlock"
     ],
-    "examplePt": "Para frente",
-    "exampleEn": "To the front"
+    "examplePt": "Cabeça para cima!",
+    "exampleEn": "Head up!"
   },
   {
     "id": "hip",
@@ -2659,8 +2659,8 @@ const TERMS = [
       "bridge",
       "sweep-score"
     ],
-    "examplePt": "Para trás",
-    "exampleEn": "To the back"
+    "examplePt": "Quadril para cima!",
+    "exampleEn": "Hips up!"
   },
   {
     "id": "knee",
@@ -2673,8 +2673,8 @@ const TERMS = [
       "knee-bar",
       "shin"
     ],
-    "examplePt": "Vai para frente",
-    "exampleEn": "Go forward"
+    "examplePt": "Joelho no chão",
+    "exampleEn": "Knee on the mat"
   },
   {
     "id": "leg",
@@ -2687,8 +2687,8 @@ const TERMS = [
       "guard",
       "leg-lock"
     ],
-    "examplePt": "Empurra!",
-    "exampleEn": "Push!"
+    "examplePt": "Passa a perna!",
+    "exampleEn": "Step your leg over!"
   },
   {
     "id": "mouth",
@@ -2703,8 +2703,8 @@ const TERMS = [
       "ankle-lock",
       "toe-hold"
     ],
-    "examplePt": "Mais rápido!",
-    "exampleEn": "Faster!"
+    "examplePt": "Protetor bucal na boca",
+    "exampleEn": "Mouthguard in your mouth"
   },
   {
     "id": "neck",
@@ -2717,8 +2717,8 @@ const TERMS = [
       "choke",
       "guillotine"
     ],
-    "examplePt": "Puxa!",
-    "exampleEn": "Pull!"
+    "examplePt": "Protege o pescoço!",
+    "exampleEn": "Protect your neck!"
   },
   {
     "id": "nose",
@@ -2731,8 +2731,8 @@ const TERMS = [
       "cross-face",
       "pressure"
     ],
-    "examplePt": "Fazer alongamento",
-    "exampleEn": "Do the stretching"
+    "examplePt": "Nariz sangrando",
+    "exampleEn": "Bloody nose"
   },
   {
     "id": "palm",
@@ -2745,8 +2745,8 @@ const TERMS = [
       "grip",
       "hand"
     ],
-    "examplePt": "Fazer a gravata",
-    "exampleEn": "Do the headlock"
+    "examplePt": "Pegada palma com palma",
+    "exampleEn": "Palm-to-palm grip"
   },
   {
     "id": "rib",
@@ -2759,8 +2759,8 @@ const TERMS = [
       "knee-on-belly",
       "pressure"
     ],
-    "examplePt": "Eleva o quadril!",
-    "exampleEn": "Elevate your hips!"
+    "examplePt": "Joelho nas costelas",
+    "exampleEn": "Knee in the ribs"
   },
   {
     "id": "shin",
@@ -2772,8 +2772,8 @@ const TERMS = [
     "related": [
       "calf-slicer"
     ],
-    "examplePt": "Defesa de soco",
-    "exampleEn": "Punch defense"
+    "examplePt": "Canela no quadril",
+    "exampleEn": "Shin on the hip"
   },
   {
     "id": "shoulder",
@@ -2787,8 +2787,8 @@ const TERMS = [
       "americana",
       "omoplata"
     ],
-    "examplePt": "Defesa de chute",
-    "exampleEn": "Kick defense"
+    "examplePt": "Ombro no queixo",
+    "exampleEn": "Shoulder under the chin"
   },
   {
     "id": "stomach",
@@ -2801,8 +2801,8 @@ const TERMS = [
       "knee-on-belly",
       "core"
     ],
-    "examplePt": "Senta!",
-    "exampleEn": "Sit!"
+    "examplePt": "Joelho na barriga",
+    "exampleEn": "Knee on belly"
   },
   {
     "id": "thigh",
@@ -2816,8 +2816,8 @@ const TERMS = [
       "guard",
       "shin"
     ],
-    "examplePt": "Pula!",
-    "exampleEn": "Jump!"
+    "examplePt": "Pegar na coxa",
+    "exampleEn": "Grab the thigh"
   },
   {
     "id": "thumb",
@@ -2830,8 +2830,8 @@ const TERMS = [
       "grip",
       "collar"
     ],
-    "examplePt": "Salta!",
-    "exampleEn": "Hop!"
+    "examplePt": "Polegar dentro da gola",
+    "exampleEn": "Thumb inside the collar"
   },
   {
     "id": "toe",
@@ -2844,8 +2844,8 @@ const TERMS = [
       "toe-hold",
       "foot"
     ],
-    "examplePt": "Mais rápido!",
-    "exampleEn": "Faster!"
+    "examplePt": "Cuidado com o dedo do pé",
+    "exampleEn": "Watch your toe"
   },
   {
     "id": "wrist",
@@ -2858,7 +2858,7 @@ const TERMS = [
       "wrist-lock",
       "grip"
     ],
-    "examplePt": "Mais devagar!",
-    "exampleEn": "Slower!"
+    "examplePt": "Controla o punho",
+    "exampleEn": "Control the wrist"
   }
 ];
