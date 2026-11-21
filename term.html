@@ -3,56 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guarda — BJJ Translator</title>
+    <meta name="theme-color" content="#2E7D4F">
+    <title>BJJ Translator</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="index.html" class="back-link">←</a>
-        <h1>Positions</h1>
-        <main>
-            <section class="term-header">
-                <h2 class="term-portuguese">Guarda</h2>
-                <p class="term-english">Guard</p>
-                <p class="pronunciation-chip">GWAR-dah</p>
-            </section>
-                <section class="term-category">
-                <p class="category-label">Category</p>
-                <a href="index.html" class="category-value">Positions</a>
-            </section>
-            <section class="term-description">
-                <p>A fundamental ground position where you control your opponent using your legs. The guard is considered the foundation of BJJ and includes many variations such as closed guard, open guard, and half guard.</p>
-            </section>
-                    <section class="term-usage">
-            <p><strong>Usage:</strong> "Puxar para guarda" — Pull to guard</p>
+    <header class="app-bar">
+        <a href="index.html" class="back-link" id="back-link" aria-label="Back to all terms">←</a>
+        <h1 id="page-category">&nbsp;</h1>
+    </header>
+
+    <main id="term-main">
+        <section class="term-header">
+            <h2 class="term-portuguese" id="term-portuguese"></h2>
+            <p class="term-english" id="term-english"></p>
+            <p class="pronunciation-chip" id="term-pronunciation"></p>
         </section>
 
-        <section class="related-terms">
-            <h3>Related Terms</h3>
-            <div class="term-list">
-                <a href="term.html" class="term-card">
-                    <div class="term-info">
-                        <span class="term-english">Half Guard</span>
-                        <span class="term-portuguese">Meia Guarda</span>
-                    </div>
-                    <span class="chevron">›</span>
-                </a>
-                <a href="term.html" class="term-card">
-                    <div class="term-info">
-                        <span class="term-english">Open Guard</span>
-                        <span class="term-portuguese">Guarda Aberta</span>
-                    </div>
-                    <span class="chevron">›</span>
-                </a>
-                <a href="term.html" class="term-card">
-                    <div class="term-info">
-                        <span class="term-english">Closed Guard</span>
-                        <span class="term-portuguese">Guarda Fechada</span>
-                    </div>
-                    <span class="chevron">›</span>
-                </a>
-            </div>
+        <section class="term-category">
+            <p class="category-label">Category</p>
+            <a href="index.html" class="category-value" id="term-category"></a>
         </section>
-        </main>
-    </header>
+
+        <section class="term-description">
+            <p id="term-description"></p>
+        </section>
+
+        <section class="term-usage" id="term-usage" hidden>
+            <p><strong>Usage:</strong> <span id="term-usage-text"></span></p>
+        </section>
+
+        <section class="related-terms" id="related-terms" hidden aria-labelledby="related-heading">
+            <h3 id="related-heading">Related Terms</h3>
+            <div class="term-list" id="related-list"></div>
+        </section>
+    </main>
+
+    <script src="data/terms.js"></script>
+    <script src="js/app.js"></script>
+    <script>BJJ.initTerm();</script>
 </body>
 </html>
