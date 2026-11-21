@@ -275,6 +275,18 @@ main {
     color: var(--outline);
 }
 
+.link-button {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--primary-text);
+    font: inherit;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+
 /* ---------- Term cards (home + related) ---------- */
 
 .term-list {
@@ -315,6 +327,14 @@ main {
 .term-card .term-portuguese {
     font-size: 14px;
     color: var(--primary-text);
+}
+
+/* why a description-only search result matched */
+.term-card .term-mention {
+    margin-top: 2px;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--outline);
 }
 
 .chevron {

@@ -52,8 +52,43 @@ const BJJ = (function () {
         }
     }
 
+    // Find where a word in `text` starts with `query` (accent- and
+    // case-insensitive). "leg" matches "legs" but not "Polegar".
+    // Returns the whole matched word from the original text, or null.
+    function findWordMatch(text, query) {
+        const q = normalize(query);
+        if (!q || !text) return null;
+
+        // Fold the text one character at a time, remembering where each
+        // folded character came from, so we can return the original word.
+        let folded = "";
+        const origin = [];
+        for (let i = 0; i < text.length; i++) {
+            const f = text[i].normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+            for (let j = 0; j < f.length; j++) {
+                folded += f[j];
+                origin.push(i);
+            }
+        }
+
+        const isWordChar = (c) => /[a-z0-9]/.test(c);
+        let from = 0;
+        while (true) {
+            const at = folded.indexOf(q, from);
+            if (at === -1) return null;
+            if (at === 0 || !isWordChar(folded[at - 1])) {
+                const start = origin[at];
+                let end = origin[at + q.length - 1] + 1;
+                while (end < text.length && /[\p{L}\p{N}]/u.test(text[end])) end++;
+                return text.slice(start, end);
+            }
+            from = at + 1;
+        }
+    }
+
     // Build one tappable term card. Used on both pages.
-    function createTermCard(term) {
+    // `mention` (optional) explains a match found only in the description.
+    function createTermCard(term, mention) {
         const card = document.createElement("a");
         card.className = "term-card";
         card.href = termUrl(term);
@@ -71,6 +106,13 @@ const BJJ = (function () {
         portuguese.textContent = term.portuguese;
 
         info.append(english, portuguese);
+
+        if (mention) {
+            const note = document.createElement("span");
+            note.className = "term-mention";
+            note.textContent = "Mentions “" + mention + "”";
+            info.appendChild(note);
+        }
 
         const chevron = document.createElement("span");
         chevron.className = "chevron";
@@ -145,27 +187,36 @@ const BJJ = (function () {
             update();
         });
 
-        function matchingTerms() {
+        // The keyboard's Search/Enter key closes the on-screen keyboard
+        // so the results underneath are visible.
+        searchEl.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") searchEl.blur();
+        });
+
+        // Search every term (ignoring the category) and note how each matched.
+        // Returns [{ term, nameMatch, mention }], name matches first.
+        function searchAll() {
             const q = normalize(state.query);
-            return TERMS.filter((term) => {
-                if (state.category !== "All" && term.category !== state.category) {
-                    return false;
+            if (!q) {
+                return TERMS.slice().sort(byEnglishName)
+                    .map((term) => ({ term: term, nameMatch: true, mention: null }));
+            }
+            const results = [];
+            TERMS.forEach((term) => {
+                if (findWordMatch(term.english, q) || findWordMatch(term.portuguese, q)) {
+                    results.push({ term: term, nameMatch: true, mention: null });
+                    return;
                 }
-                if (!q) return true;
-                return (
-                    normalize(term.english).includes(q) ||
-                    normalize(term.portuguese).includes(q) ||
-                    normalize(term.description).includes(q)
-                );
-            }).sort((a, b) => {
-                // When searching, name matches rank above description-only matches.
-                if (q) {
-                    const aName = normalize(a.english + " " + a.portuguese).includes(q) ? 0 : 1;
-                    const bName = normalize(b.english + " " + b.portuguese).includes(q) ? 0 : 1;
-                    if (aName !== bName) return aName - bName;
-                }
-                return byEnglishName(a, b);
+                const mention = findWordMatch(term.description, q);
+                if (mention) results.push({ term: term, nameMatch: false, mention: mention });
             });
+            return results.sort((a, b) =>
+                (a.nameMatch === b.nameMatch ? 0 : a.nameMatch ? -1 : 1) ||
+                byEnglishName(a.term, b.term));
+        }
+
+        function inCategory(result) {
+            return state.category === "All" || result.term.category === state.category;
         }
 
         function update() {
@@ -177,8 +228,9 @@ const BJJ = (function () {
             });
 
             // Render the list.
-            const results = matchingTerms();
-            listEl.replaceChildren(...results.map(createTermCard));
+            const all = searchAll();
+            const results = all.filter(inCategory);
+            listEl.replaceChildren(...results.map((r) => createTermCard(r.term, r.mention)));
 
             if (results.length === 0) {
                 const empty = document.createElement("div");
@@ -189,12 +241,29 @@ const BJJ = (function () {
                 hint.textContent =
                     state.category === "All"
                         ? "Try a different spelling, or search in English or Portuguese."
-                        : "Nothing in " + state.category + " matches. Try the All filter.";
+                        : "Nothing in " + state.category + " matches.";
                 empty.append(strong, hint);
                 listEl.appendChild(empty);
             }
 
-            countEl.textContent = results.length + (results.length === 1 ? " term" : " terms");
+            const countText = results.length + (results.length === 1 ? " term" : " terms") +
+                (state.category !== "All" ? " in " + state.category : "");
+            countEl.replaceChildren(document.createTextNode(countText));
+
+            // While a category is selected, say how many matches it hides
+            // and offer to show them.
+            const hidden = all.length - results.length;
+            if (state.query.trim() && hidden > 0) {
+                const more = document.createElement("button");
+                more.type = "button";
+                more.className = "link-button";
+                more.textContent = "Show " + hidden + " more in all categories";
+                more.addEventListener("click", () => {
+                    state.category = "All";
+                    update();
+                });
+                countEl.append(document.createTextNode(" · "), more);
+            }
 
             // Keep the URL in sync so refresh/back keep the same view.
             const next = new URLSearchParams();
@@ -227,6 +296,9 @@ const BJJ = (function () {
         "stand", "jump", "hop", "shake", "bend", "grab", "rotate", "left", "right",
         "front", "forward", "bow", "match", "points", "escape", "transition", "flow",
         "body", "elevate", "straighten", "stretch", "drilling", "submission",
+        // used in descriptions with a different meaning than the term:
+        // "a striking technique" isn't a class, and falling and rolling isn't sparring
+        "technique", "rolling",
     ]);
 
     // Build the list of phrases that should become links, longest first,
