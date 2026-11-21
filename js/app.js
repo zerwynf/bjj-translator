@@ -187,6 +187,15 @@ const BJJ = (function () {
             update();
         });
 
+        // Visible ✕ so a remembered search is easy to spot and clear.
+        const clearEl = document.getElementById("search-clear");
+        clearEl.addEventListener("click", () => {
+            searchEl.value = "";
+            state.query = "";
+            update();
+            searchEl.focus();
+        });
+
         // The keyboard's Search/Enter key closes the on-screen keyboard
         // so the results underneath are visible.
         searchEl.addEventListener("keydown", (event) => {
@@ -246,7 +255,11 @@ const BJJ = (function () {
                 listEl.appendChild(empty);
             }
 
+            clearEl.hidden = !state.query;
+
+            const query = state.query.trim();
             const countText = results.length + (results.length === 1 ? " term" : " terms") +
+                (query ? " matching “" + query + "”" : "") +
                 (state.category !== "All" ? " in " + state.category : "");
             countEl.replaceChildren(document.createTextNode(countText));
 
