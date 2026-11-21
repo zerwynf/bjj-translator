@@ -408,7 +408,7 @@ const BJJ = (function () {
 
         const related = term.related.map((rid) => termsById.get(rid)).filter(Boolean);
         if (related.length) {
-            document.getElementById("related-list").replaceChildren(...related.map(createTermCard));
+            document.getElementById("related-list").replaceChildren(...related.map((t) => createTermCard(t)));
             document.getElementById("related-terms").hidden = false;
         }
     }
