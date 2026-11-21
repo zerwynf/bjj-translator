@@ -225,6 +225,9 @@ main {
     padding: var(--space-1) var(--space-4);
     overflow-x: auto;
     scroll-snap-type: x proximity;
+    /* snap chips to the padded edge, not the screen edge (Safari otherwise
+       snaps "All" flush to the left) */
+    scroll-padding-inline: var(--space-4);
     scrollbar-width: none;
     /* fade at the right edge hints that the row scrolls */
     -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
