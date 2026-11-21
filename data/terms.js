@@ -394,7 +394,9 @@ const TERMS = [
     "pronunciation": "goh-goh-PLAH-tah",
     "description": "A choke from guard using the shin bone across the opponent's throat while pulling their head down with both hands. A rare and flashy submission.",
     "related": [
-      "guard"
+      "guard",
+      "omoplata",
+      "triangle-choke"
     ],
     "examplePt": "Encaixar a gogoplata",
     "exampleEn": "Lock in the gogoplata"
@@ -480,7 +482,7 @@ const TERMS = [
     "related": [
       "guard",
       "triangle-choke",
-      "sweep-score"
+      "kimura"
     ],
     "examplePt": "Encaixar a omoplata",
     "exampleEn": "Lock in the omoplata"
@@ -884,7 +886,11 @@ const TERMS = [
     "portuguese": "Ponte",
     "pronunciation": "POHN-chee",
     "description": "An explosive upward hip thrust used to off-balance an opponent from mount or to escape bottom positions. Drive off your feet and arch your back.",
-    "related": [],
+    "related": [
+      "mount",
+      "escape",
+      "shrimp-hip-escape"
+    ],
     "examplePt": "Fazer a ponte",
     "exampleEn": "Do the bridge"
   },
@@ -983,8 +989,9 @@ const TERMS = [
     "pronunciation": "floo-EER",
     "description": "Moving smoothly between techniques and positions without forcing anything. The goal of advanced BJJ.",
     "related": [
-      "berimbolo",
-      "de-la-riva-guard"
+      "transition",
+      "sparring-rolling",
+      "drilling"
     ],
     "examplePt": "Vamos fluir",
     "exampleEn": "Let's flow"
@@ -1011,8 +1018,9 @@ const TERMS = [
     "pronunciation": "en-kwah-drah-MEN-toh",
     "description": "Using your skeletal structure (forearms, shins, knees) to create barriers and maintain distance from an opponent. Essential for defense.",
     "related": [
-      "berimbolo",
-      "de-la-riva-guard"
+      "forearm",
+      "shin",
+      "guard-retention"
     ],
     "examplePt": "Fazer o enquadramento",
     "exampleEn": "Set the frame"
@@ -1039,8 +1047,9 @@ const TERMS = [
     "pronunciation": "peh-GAH-dah",
     "description": "How you hold the gi or your opponent's body. Grip fighting is a fundamental aspect of BJJ.",
     "related": [
-      "underhook",
-      "body-lock-takedown"
+      "collar",
+      "sleeve",
+      "lapel"
     ],
     "examplePt": "Fazer a pegada",
     "exampleEn": "Get the grip"
@@ -1182,8 +1191,9 @@ const TERMS = [
     "pronunciation": "leh-vahn-TAR",
     "description": "To lift or raise up. Used for lifting hips during sweeps, standing up, or elevating an opponent.",
     "related": [
-      "black-belt",
-      "professor"
+      "elevate",
+      "bridge",
+      "stand"
     ],
     "examplePt": "Levanta!",
     "exampleEn": "Lift!"
@@ -1223,8 +1233,9 @@ const TERMS = [
     "pronunciation": "TRAY-noh LEE-vreh",
     "description": "An unstructured training session where students can spar, drill, or practice freely without formal instruction.",
     "related": [
-      "stripe",
-      "white-belt"
+      "training",
+      "sparring-rolling",
+      "academy"
     ],
     "examplePt": "Sábado tem treino livre",
     "exampleEn": "There's open mat on Saturday"
@@ -1282,8 +1293,9 @@ const TERMS = [
     "pronunciation": "pohs-TOO-rah",
     "description": "Body alignment, especially important when in someone's guard. Good posture prevents submissions and creates passing opportunities.",
     "related": [
-      "overhook",
-      "body-lock-takedown"
+      "closed-guard",
+      "guard-pass",
+      "break"
     ],
     "examplePt": "Manter a postura",
     "exampleEn": "Keep your posture"
@@ -1296,8 +1308,9 @@ const TERMS = [
     "pronunciation": "preh-SOWNG",
     "description": "Using body weight and positioning to make your opponent uncomfortable and control them. A hallmark of effective BJJ.",
     "related": [
-      "white-belt",
-      "stripe"
+      "side-control",
+      "knee-on-belly",
+      "cross-face"
     ],
     "examplePt": "Fazer pressão",
     "exampleEn": "Apply pressure"
@@ -1310,8 +1323,9 @@ const TERMS = [
     "pronunciation": "dees-POO-tah",
     "description": "A fast, chaotic exchange where both practitioners are fighting for position simultaneously. Common during transitions.",
     "related": [
-      "black-belt",
-      "professor"
+      "transition",
+      "turtle",
+      "granby-roll"
     ],
     "examplePt": "Ganhar a disputa",
     "exampleEn": "Win the scramble"
@@ -1369,8 +1383,9 @@ const TERMS = [
     "pronunciation": "hoh-LAR",
     "description": "Live training with a partner at varying intensity. The word literally means 'to roll' and is the cornerstone of BJJ training.",
     "related": [
-      "stripe",
-      "white-belt"
+      "training-partner",
+      "rounds",
+      "let-s-roll"
     ],
     "examplePt": "Vamos rolar!",
     "exampleEn": "Let's roll!"
@@ -1409,8 +1424,9 @@ const TERMS = [
     "pronunciation": "OW-lah",
     "description": "A structured BJJ class, typically including warm-up, technique instruction, drilling, and sparring.",
     "related": [
-      "stripe",
-      "white-belt"
+      "warm-up",
+      "drilling",
+      "professor"
     ],
     "examplePt": "A aula começa às sete",
     "exampleEn": "Class starts at seven"
@@ -1423,8 +1439,9 @@ const TERMS = [
     "pronunciation": "TRAY-noh",
     "description": "General term for a training session or practice.",
     "related": [
-      "stripe",
-      "white-belt"
+      "technique-class",
+      "drilling",
+      "open-mat"
     ],
     "examplePt": "Bom treino!",
     "exampleEn": "Good training!"
@@ -1451,8 +1468,9 @@ const TERMS = [
     "pronunciation": "trahn-zee-SOWNG",
     "description": "Moving from one position to another fluidly during a roll. Good transitions are the mark of an experienced practitioner.",
     "related": [
-      "black-belt",
-      "red-belt"
+      "flow",
+      "scramble",
+      "position"
     ],
     "examplePt": "Trabalhar a transição",
     "exampleEn": "Work the transition"
@@ -1479,8 +1497,9 @@ const TERMS = [
     "pronunciation": "ah-keh-see-MEN-toh",
     "description": "Physical exercises performed at the beginning of class to prepare the body for training.",
     "related": [
-      "white-belt",
-      "stripe"
+      "stretch",
+      "forward-roll",
+      "shrimp-hip-escape"
     ],
     "examplePt": "Vamos fazer o aquecimento",
     "exampleEn": "Let's do the warm-up"
@@ -1493,8 +1512,8 @@ const TERMS = [
     "pronunciation": "deh NOH-voh",
     "description": "Instruction to repeat a drill or technique.",
     "related": [
-      "black-belt",
-      "professor"
+      "drilling",
+      "technique-class"
     ],
     "examplePt": "De novo!",
     "exampleEn": "Again!"
@@ -1507,8 +1526,8 @@ const TERMS = [
     "pronunciation": "ah-TRAHS",
     "description": "Direction: backward or behind. Used to indicate direction of movement or positioning.",
     "related": [
-      "advantage",
-      "penalty"
+      "forward",
+      "front"
     ],
     "examplePt": "Para trás",
     "exampleEn": "To the back"
@@ -1521,8 +1540,8 @@ const TERMS = [
     "pronunciation": "doh-BRAR",
     "description": "To bend or fold. Used when instructing to bend a limb or fold an opponent during a technique.",
     "related": [
-      "tournament",
-      "weight-class"
+      "straighten",
+      "arm"
     ],
     "examplePt": "Dobra o braço!",
     "exampleEn": "Bend the arm!"
@@ -1535,8 +1554,9 @@ const TERMS = [
     "pronunciation": "koom-pree-men-TAR",
     "description": "Instruction to bow, showing respect at the start and end of class.",
     "related": [
-      "points",
-      "penalty"
+      "oss",
+      "line-up",
+      "professor"
     ],
     "examplePt": "Cumprimentar o professor",
     "exampleEn": "Bow to the professor"
@@ -1548,7 +1568,10 @@ const TERMS = [
     "portuguese": "Fechar",
     "pronunciation": "feh-SHAR",
     "description": "To close. Used when instructing to close the guard (lock ankles), close distance, or tighten a grip.",
-    "related": [],
+    "related": [
+      "closed-guard",
+      "open"
+    ],
     "examplePt": "Fecha a guarda!",
     "exampleEn": "Close the guard!"
   },
@@ -1560,8 +1583,8 @@ const TERMS = [
     "pronunciation": "en-ten-DEW",
     "description": "Instructor checking if the class understood the technique shown.",
     "related": [
-      "points",
-      "advantage"
+      "pay-attention",
+      "oss"
     ],
     "examplePt": "Entendeu? Entendi!",
     "exampleEn": "Do you understand? I understand!"
@@ -1574,8 +1597,9 @@ const TERMS = [
     "pronunciation": "eh-leh-VAR",
     "description": "To lift or raise. Used when instructing to lift hips, elevate an opponent for a sweep, or raise a leg.",
     "related": [
-      "tap",
-      "points"
+      "lift",
+      "bridge",
+      "hip"
     ],
     "examplePt": "Eleva o quadril!",
     "exampleEn": "Elevate your hips!"
@@ -1588,8 +1612,7 @@ const TERMS = [
     "pronunciation": "LOHN-zhee",
     "description": "Far or distant. Used to describe the side furthest from you — 'far arm' or 'far leg' are common instructions.",
     "related": [
-      "points",
-      "takedown-score"
+      "near"
     ],
     "examplePt": "Braço longe",
     "exampleEn": "Far arm"
@@ -1602,8 +1625,7 @@ const TERMS = [
     "pronunciation": "HAH-pee-doh",
     "description": "Quick or fast. Used as instruction to increase speed or intensity during drilling or sparring.",
     "related": [
-      "tournament",
-      "referee"
+      "slow"
     ],
     "examplePt": "Mais rápido!",
     "exampleEn": "Faster!"
@@ -1616,8 +1638,8 @@ const TERMS = [
     "pronunciation": "PAH-rah FREHN-chee",
     "description": "Direction of movement: moving forward. Common instruction during drills and positional training.",
     "related": [
-      "tournament",
-      "weight-class"
+      "back-behind",
+      "front"
     ],
     "examplePt": "Vai para frente",
     "exampleEn": "Go forward"
@@ -1630,8 +1652,8 @@ const TERMS = [
     "pronunciation": "FREHN-chee",
     "description": "Direction: forward or the front. Used to indicate facing direction or which side of the body.",
     "related": [
-      "tournament",
-      "sparring-rolling"
+      "forward",
+      "back-behind"
     ],
     "examplePt": "Para frente",
     "exampleEn": "To the front"
@@ -1644,8 +1666,8 @@ const TERMS = [
     "pronunciation": "BOH-ah",
     "description": "Expression of approval or encouragement. Short for 'Boa trabalho' (good work). You'll hear this constantly in a Brazilian academy.",
     "related": [
-      "points",
-      "guard"
+      "well-done-excellent",
+      "oss"
     ],
     "examplePt": "Boa, continua assim!",
     "exampleEn": "Good job, keep it up!"
@@ -1658,9 +1680,9 @@ const TERMS = [
     "pronunciation": "ah-gah-HAR",
     "description": "To grab or seize. A general gripping action, often the first step in establishing control.",
     "related": [
-      "shrimp-hip-escape",
-      "bridge",
-      "sweep-score"
+      "grip",
+      "collar",
+      "sleeve"
     ],
     "examplePt": "Agarra!",
     "exampleEn": "Grab!"
@@ -1673,8 +1695,8 @@ const TERMS = [
     "pronunciation": "ah-KEE",
     "description": "Here / right here. Used to indicate a specific position, grip placement, or location on the body.",
     "related": [
-      "knee-bar",
-      "shin"
+      "near",
+      "far"
     ],
     "examplePt": "Coloca aqui",
     "exampleEn": "Put it here"
@@ -1687,8 +1709,8 @@ const TERMS = [
     "pronunciation": "sahl-TAR",
     "description": "To hop or bounce. Used in warm-up drills and movement exercises on the mat.",
     "related": [
-      "points",
-      "takedown-score"
+      "jump",
+      "warm-up"
     ],
     "examplePt": "Salta!",
     "exampleEn": "Hop!"
@@ -1701,9 +1723,9 @@ const TERMS = [
     "pronunciation": "poo-LAR",
     "description": "To jump. Used in instructions for guard jumping, jumping to mount, or warm-up exercises.",
     "related": [
-      "points",
-      "guard",
-      "side-control"
+      "hop",
+      "pull-guard",
+      "warm-up"
     ],
     "examplePt": "Pula!",
     "exampleEn": "Jump!"
@@ -1716,8 +1738,8 @@ const TERMS = [
     "pronunciation": "SHOO-chee",
     "description": "A striking technique with the foot or leg. Like punching, kick defense is part of self-defense BJJ training.",
     "related": [
-      "points",
-      "mount"
+      "punch",
+      "self-defense"
     ],
     "examplePt": "Defesa de chute",
     "exampleEn": "Kick defense"
@@ -1730,9 +1752,7 @@ const TERMS = [
     "pronunciation": "ehs-KEHR-dah",
     "description": "Direction: left side. Used frequently in instruction to indicate which side to perform a technique.",
     "related": [
-      "points",
-      "back-control",
-      "hook"
+      "right"
     ],
     "examplePt": "Lado esquerdo",
     "exampleEn": "Left side"
@@ -1745,8 +1765,8 @@ const TERMS = [
     "pronunciation": "VAH-mohs",
     "description": "General encouragement to start or keep going.",
     "related": [
-      "armbar",
-      "kimura"
+      "start-go",
+      "let-s-roll"
     ],
     "examplePt": "Vamos, não para!",
     "exampleEn": "Let's go, don't stop!"
@@ -1759,8 +1779,8 @@ const TERMS = [
     "pronunciation": "VAH-mohs hoh-LAR",
     "description": "The call to start sparring. 'Rolar' literally means 'to roll,' which is what BJJ practitioners call sparring.",
     "related": [
-      "guard",
-      "leg-lock"
+      "sparring-rolling",
+      "rounds"
     ],
     "examplePt": "Vamos rolar?",
     "exampleEn": "Shall we roll?"
@@ -1773,8 +1793,8 @@ const TERMS = [
     "pronunciation": "fahz FEE-lah",
     "description": "Instruction to line up, usually at the start or end of class for bowing.",
     "related": [
-      "choke",
-      "guillotine"
+      "bow",
+      "professor"
     ],
     "examplePt": "Faz fila por faixa",
     "exampleEn": "Line up by belt"
@@ -1787,8 +1807,8 @@ const TERMS = [
     "pronunciation": "meh-SHEHR",
     "description": "To move. General instruction to keep moving and not stay static during sparring or drilling.",
     "related": [
-      "wrist-lock",
-      "grip"
+      "flow",
+      "shrimp-hip-escape"
     ],
     "examplePt": "Mexe!",
     "exampleEn": "Move!"
@@ -1800,7 +1820,9 @@ const TERMS = [
     "portuguese": "Perto",
     "pronunciation": "PEHR-toh",
     "description": "Close or nearby. Used to describe proximity — 'near side' or 'near arm' refers to the side closest to you.",
-    "related": [],
+    "related": [
+      "far"
+    ],
     "examplePt": "Braço perto",
     "exampleEn": "Near arm"
   },
@@ -1811,7 +1833,10 @@ const TERMS = [
     "portuguese": "Abrir",
     "pronunciation": "ah-BREER",
     "description": "To open. Used when instructing to open the guard, open a grip, or create space.",
-    "related": [],
+    "related": [
+      "open-guard",
+      "close"
+    ],
     "examplePt": "Abre a guarda!",
     "exampleEn": "Open the guard!"
   },
@@ -1823,9 +1848,8 @@ const TERMS = [
     "pronunciation": "OSS",
     "description": "A multipurpose expression of respect, acknowledgment, and greeting used widely in martial arts. Can mean 'hello,' 'thank you,' 'I understand,' or 'let's go.'",
     "related": [
-      "shrimp-hip-escape",
-      "bridge",
-      "sweep-score"
+      "bow",
+      "good-job"
     ],
     "examplePt": "Oss, professor!",
     "exampleEn": "Oss, professor!"
@@ -1838,8 +1862,8 @@ const TERMS = [
     "pronunciation": "PREHS-tah ah-ten-SOWNG",
     "description": "Instructor calling for the class to watch and listen.",
     "related": [
-      "knee-bar",
-      "shin"
+      "do-you-understand",
+      "technique-class"
     ],
     "examplePt": "Presta atenção no detalhe",
     "exampleEn": "Pay attention to the detail"
@@ -1852,8 +1876,9 @@ const TERMS = [
     "pronunciation": "poo-SHAR",
     "description": "To pull toward you. Essential for breaking posture, executing sweeps, and controlling grips.",
     "related": [
-      "ankle-lock",
-      "hook"
+      "push",
+      "pull-guard",
+      "break"
     ],
     "examplePt": "Puxa!",
     "exampleEn": "Pull!"
@@ -1866,8 +1891,8 @@ const TERMS = [
     "pronunciation": "SOH-koh",
     "description": "A striking technique with the fist. While not used in sport BJJ, punch defense is fundamental to self-defense BJJ curriculum.",
     "related": [
-      "hook",
-      "toe-hold"
+      "kick",
+      "self-defense"
     ],
     "examplePt": "Defesa de soco",
     "exampleEn": "Punch defense"
@@ -1880,8 +1905,8 @@ const TERMS = [
     "pronunciation": "em-poo-HAR",
     "description": "To push away from you. A fundamental action used in frames, guard retention, and creating distance.",
     "related": [
-      "grip",
-      "wrist-lock"
+      "pull",
+      "frame"
     ],
     "examplePt": "Empurra!",
     "exampleEn": "Push!"
@@ -1894,8 +1919,7 @@ const TERMS = [
     "pronunciation": "dee-RAY-tah",
     "description": "Direction: right side. Used frequently in instruction to indicate which side to perform a technique.",
     "related": [
-      "wrist-lock",
-      "grip"
+      "left"
     ],
     "examplePt": "Lado direito",
     "exampleEn": "Right side"
@@ -1907,7 +1931,10 @@ const TERMS = [
     "portuguese": "Girar",
     "pronunciation": "zhee-RAR",
     "description": "To rotate or turn. Common instruction during technique drilling to indicate a rotational movement of the hips, body, or limbs.",
-    "related": [],
+    "related": [
+      "inversion",
+      "granby-roll"
+    ],
     "examplePt": "Gira!",
     "exampleEn": "Rotate!"
   },
@@ -1919,8 +1946,8 @@ const TERMS = [
     "pronunciation": "sah-koo-DEER",
     "description": "To shake or rattle. Can refer to shaking off a grip, shaking an opponent's base, or shaking out tension.",
     "related": [
-      "side-control",
-      "pressure"
+      "grip",
+      "base"
     ],
     "examplePt": "Sacude!",
     "exampleEn": "Shake!"
@@ -1932,7 +1959,11 @@ const TERMS = [
     "portuguese": "Apertar a Mão",
     "pronunciation": "ah-pehr-TAR ah MOWNG",
     "description": "To shake hands. A sign of respect before and after sparring rounds. Often combined with a fist bump in BJJ culture.",
-    "related": [],
+    "related": [
+      "rounds",
+      "sparring-rolling",
+      "oss"
+    ],
     "examplePt": "Aperta a mão",
     "exampleEn": "Shake hands"
   },
@@ -1944,8 +1975,8 @@ const TERMS = [
     "pronunciation": "sen-TAR",
     "description": "To sit or sit down. Used in instructions for sitting to guard, sitting up for sweeps, or positional commands.",
     "related": [
-      "grip",
-      "collar"
+      "guard",
+      "pull-guard"
     ],
     "examplePt": "Senta!",
     "exampleEn": "Sit!"
@@ -1958,8 +1989,8 @@ const TERMS = [
     "pronunciation": "deh-vah-GAR",
     "description": "Slow or slowly. Used as instruction to reduce speed and focus on technique precision.",
     "related": [
-      "armbar",
-      "frame"
+      "fast",
+      "drilling"
     ],
     "examplePt": "Mais devagar!",
     "exampleEn": "Slower!"
@@ -1972,8 +2003,8 @@ const TERMS = [
     "pronunciation": "leh-vahn-TAR / fee-KAR eng PEH",
     "description": "To stand up. Used when instructing students to return to standing position or to stand up in base.",
     "related": [
-      "stripe",
-      "white-belt"
+      "technical-stand-up",
+      "base"
     ],
     "examplePt": "Levanta!",
     "exampleEn": "Stand up!"
@@ -1986,9 +2017,9 @@ const TERMS = [
     "pronunciation": "koh-MEH-sah",
     "description": "Command to begin a drill, round, or match.",
     "related": [
-      "kimura",
-      "americana",
-      "omoplata"
+      "stop-time",
+      "rounds",
+      "referee"
     ],
     "examplePt": "Prontos? Começa!",
     "exampleEn": "Ready? Go!"
@@ -2001,8 +2032,9 @@ const TERMS = [
     "pronunciation": "pah-ROH / TEM-poh",
     "description": "Command to stop or pause training.",
     "related": [
-      "back-control",
-      "posture"
+      "start-go",
+      "rounds",
+      "referee"
     ],
     "examplePt": "Parou! Tempo!",
     "exampleEn": "Stop! Time!"
@@ -2015,9 +2047,8 @@ const TERMS = [
     "pronunciation": "ehs-chee-KAR",
     "description": "To straighten or extend. Used when instructing to extend a limb, often to finish an armbar or break a grip.",
     "related": [
-      "points",
-      "back-control",
-      "hook"
+      "bend",
+      "armbar"
     ],
     "examplePt": "Estica o braço!",
     "exampleEn": "Straighten the arm!"
@@ -2030,8 +2061,8 @@ const TERMS = [
     "pronunciation": "troh-KAR deh par-SAY-roh",
     "description": "Instruction to change training partners.",
     "related": [
-      "posture",
-      "headlock"
+      "training-partner",
+      "rounds"
     ],
     "examplePt": "Troca de parceiro!",
     "exampleEn": "Switch partners!"
@@ -2044,8 +2075,8 @@ const TERMS = [
     "pronunciation": "BAH-chee",
     "description": "The command to submit — tap your partner or the mat to signal you give up. Safety is the top priority.",
     "related": [
-      "side-control",
-      "pressure"
+      "submission",
+      "choke"
     ],
     "examplePt": "Bate antes de se machucar",
     "exampleEn": "Tap before you get hurt"
@@ -2072,8 +2103,8 @@ const TERMS = [
     "pronunciation": "MWEEN-toh BENG",
     "description": "Strong praise from the instructor.",
     "related": [
-      "grip",
-      "collar"
+      "good-job",
+      "oss"
     ],
     "examplePt": "Muito bem, perfeito!",
     "exampleEn": "Well done, perfect!"
@@ -2488,8 +2519,9 @@ const TERMS = [
     "pronunciation": "KOR-poh",
     "description": "The physical body. Understanding body mechanics and positioning is the foundation of all BJJ technique.",
     "related": [
-      "choke",
-      "guillotine"
+      "core",
+      "posture",
+      "base"
     ],
     "examplePt": "Corpo colado",
     "exampleEn": "Keep your body tight"
@@ -2515,7 +2547,11 @@ const TERMS = [
     "portuguese": "Queixo",
     "pronunciation": "KAY-shoh",
     "description": "The chin is a key reference point for defending chokes — tucking your chin protects the neck.",
-    "related": [],
+    "related": [
+      "neck",
+      "choke",
+      "rear-naked-choke"
+    ],
     "examplePt": "Queixo para baixo!",
     "exampleEn": "Chin down!"
   },
@@ -2542,8 +2578,8 @@ const TERMS = [
     "pronunciation": "oh-REL-yah",
     "description": "The ear. 'Cauliflower ear' is a common BJJ condition caused by repeated friction and pressure on the ear.",
     "related": [
-      "shin",
-      "calf-slicer"
+      "head",
+      "headlock"
     ],
     "examplePt": "Orelha de couve-flor",
     "exampleEn": "Cauliflower ear"
@@ -2570,8 +2606,8 @@ const TERMS = [
     "pronunciation": "OHL-yoh",
     "description": "The eye. Eye protection is important in training — accidental eye pokes can occur during scrambles.",
     "related": [
-      "knee-on-belly",
-      "core"
+      "head",
+      "nose"
     ],
     "examplePt": "Olho no adversário",
     "exampleEn": "Eyes on your opponent"
@@ -2698,10 +2734,8 @@ const TERMS = [
     "pronunciation": "BOH-kah",
     "description": "The mouth. Wearing a mouthguard to protect teeth is recommended during sparring.",
     "related": [
-      "heel-hook",
-      "knee-bar",
-      "ankle-lock",
-      "toe-hold"
+      "chin",
+      "head"
     ],
     "examplePt": "Protetor bucal na boca",
     "exampleEn": "Mouthguard in your mouth"
