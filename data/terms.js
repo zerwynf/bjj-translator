@@ -18,8 +18,8 @@ const TERMS = [
     "id": "back-control",
     "category": "Positions",
     "english": "Back Control",
-    "portuguese": "Costas",
-    "pronunciation": "KOHS-tahs",
+    "portuguese": "Controle das Costas",
+    "pronunciation": "kohn-TROH-leh dahs KOHS-tahs",
     "description": "A dominant position where you are behind your opponent, controlling them with hooks (feet inside their thighs) and seatbelt grip. Considered the most dominant position in BJJ.",
     "related": [
       "rear-naked-choke",
@@ -218,8 +218,8 @@ const TERMS = [
     "id": "americana",
     "category": "Submissions",
     "english": "Americana",
-    "portuguese": "Chave Americana",
-    "pronunciation": "SHAH-vee ah-meh-ree-KAH-nah",
+    "portuguese": "Americana",
+    "pronunciation": "ah-meh-ree-KAH-nah",
     "description": "A shoulder lock similar to the Kimura but rotating the arm in the opposite direction (outward). Often applied from mount or side control.",
     "related": [
       "mount",
@@ -673,14 +673,14 @@ const TERMS = [
     "id": "arm-drag",
     "category": "Takedowns",
     "english": "Arm Drag",
-    "portuguese": "Arrasto de Braço",
-    "pronunciation": "ah-HAHS-toh deh BRAH-soh",
+    "portuguese": "Arm Drag",
+    "pronunciation": "AHRM DREHG",
     "description": "A grip fighting technique where you pull the opponent's arm across their body to off-balance them and create angles for takedowns or back takes.",
     "related": [
       "back-control",
       "single-leg"
     ],
-    "examplePt": "Fazer o arrasto",
+    "examplePt": "Fazer o arm drag",
     "exampleEn": "Do the arm drag"
   },
   {
@@ -700,14 +700,14 @@ const TERMS = [
     "id": "double-leg",
     "category": "Takedowns",
     "english": "Double Leg",
-    "portuguese": "Queda Dupla",
-    "pronunciation": "KEH-dah DOO-plah",
+    "portuguese": "Baiana",
+    "pronunciation": "bye-AH-nah",
     "description": "A takedown where you shoot in and grab both of the opponent's legs, driving through them to take them to the ground.",
     "related": [
       "single-leg",
       "sprawl"
     ],
-    "examplePt": "Fazer a queda dupla",
+    "examplePt": "Fazer a baiana",
     "exampleEn": "Do the double leg"
   },
   {
@@ -869,8 +869,8 @@ const TERMS = [
     "id": "breakfall",
     "category": "Concepts & Movements",
     "english": "Breakfall",
-    "portuguese": "Queda",
-    "pronunciation": "KEH-dah",
+    "portuguese": "Amortecimento de Queda",
+    "pronunciation": "ah-mor-teh-see-MEN-toh deh KEH-dah",
     "description": "A technique for falling safely by slapping the ground with your arm and rolling to distribute impact. Essential for receiving throws safely.",
     "related": [
       "hip-throw",
@@ -2070,9 +2070,9 @@ const TERMS = [
   {
     "id": "tap",
     "category": "Commands & Phrases",
-    "english": "Tap!",
-    "portuguese": "Bate!",
-    "pronunciation": "BAH-chee",
+    "english": "Tap",
+    "portuguese": "Bater",
+    "pronunciation": "bah-TEHR",
     "description": "The command to submit — tap your partner or the mat to signal you give up. Safety is the top priority.",
     "related": [
       "submission",
@@ -2264,8 +2264,8 @@ const TERMS = [
     "id": "back-control-score",
     "category": "Competition",
     "english": "Back Control (score)",
-    "portuguese": "Costas (pontuação)",
-    "pronunciation": "KOHS-tahs",
+    "portuguese": "Pegada das Costas",
+    "pronunciation": "peh-GAH-dah dahs KOHS-tahs",
     "description": "In competition, taking the opponent's back with hooks scores 4 points — the highest-scoring position.",
     "related": [
       "points",
